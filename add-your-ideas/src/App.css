@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,700;1,700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+
+#home{
+  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  flex-wrap: wrap;
+}
+
+.slideshow{
+  width: 50%;
+  margin: 10% 0;
+}
+
+@media (max-width: 1200px){
+  .slideshow{
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px){
+  .slideshow{
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px){
+  .slideshow{
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px){
+  .slideshow{
+    width: 200%;
+  }
+}
+
+.inputFields{
+  display: flex;
+  margin: 5% 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Section cards in design starts here */
+#cards{
+  min-height: 100vh;
+}
+
+#cards h2{
+  text-align: center;
+  padding: 3%;
+  font-family: 'Gentium Basic', serif;
+  font-size: 3em;
+  font-style: italic;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
