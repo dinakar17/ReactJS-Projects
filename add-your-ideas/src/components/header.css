@@ -1,24 +1,8 @@
 
 
-.header {
-  position: absolute;
-  left: 0;
-  right: 0;
-
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
-  z-index: 2000;
-}
-
-.header h2{
-  font-family: 'Gentium Basic', serif;
+header h2{
+  font-family: '', serif;
   font-size: 3em;
   font-style: italic;
 }
 
-.header img {
-  border-radius: 50%;
-  object-fit: cover;
-}
